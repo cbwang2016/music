@@ -153,7 +153,7 @@ $(function() {
           $.ajax({
             type: 'POST',
             url: getUrl(),
-            timeout: 30000,
+            timeout: 300000,
             data: {
               input: input,
               filter: filter,
